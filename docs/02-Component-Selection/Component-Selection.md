@@ -27,12 +27,12 @@ title: Component Selection Example
 
 **External Clock Module**
 
-1. XC1259TR-ND surface mount crystal
+1. MCP6004 Microchip Op-Amp
 
     ![](image1.png)
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * $0.59/each
+    * [link to product]([http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366](https://www.microchip.com/en-us/product/mcp6004))
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
