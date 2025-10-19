@@ -20,7 +20,7 @@ title: Component Selection
 
 1. VECO 50CS08FH-1 Buzzer
 
-    ![](image3.png)
+    ![](Van_50CS08FH-1_Speaker.png)
 
     * $0.59/each
     * [Link to product]([http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940](https://www.endrich.com/Datenbl%C3%A4tter/Generalimport/672158.pdf?utm_source))
