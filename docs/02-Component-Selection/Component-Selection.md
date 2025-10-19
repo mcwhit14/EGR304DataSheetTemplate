@@ -7,7 +7,7 @@ title: Component Selection
 
 1. CMT-1209-590T Buzzer 
 
-    ![](image1.png)
+    ![](CMT1209590T_Speaker.png)
 
     * $1.54/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
@@ -37,11 +37,15 @@ title: Component Selection
 
 
 
+
+
+
+
 **Op Amp Comparison**
 
 1. Microchip MCP6004
 
-    ![](image1.png)
+    ![](OpAmp_MCP6004Image.png)
 
     * $0.67/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
@@ -54,7 +58,7 @@ title: Component Selection
 
 1. Ti LM358
 
-    ![](image3.png)
+    ![](OpAmp_LM358.png)
 
     * $0.27/each
     * [Link to product]([[http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940](https://www.endrich.com/Datenbl%C3%A4tter/Generalimport/672158.pdf?utm_source)](https://www.ti.com/product/LM358#tech-docs))
