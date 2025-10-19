@@ -5,11 +5,11 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">(Your Name) Datasheet</font><br>
+<font size= "6">(Myles White) Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Heated Stair Pad</font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team 104 </font><br>
 
 **Submission: month, DD, YYYY**
 </center>
@@ -32,3 +32,5 @@ for<br>
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
 
 For all the sections
+## Component Selection (Audio Subsystem)
+- [Speaker & Op-Amp Options](Component-Selection.md)
