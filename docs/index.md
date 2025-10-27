@@ -33,4 +33,4 @@ To review the details listed of the material used to construct the subsection, y
 
 For all the sections
 ## Component Selection (Audio Subsystem)
-- [Speaker & Op-Amp Options](Component-Selection.md)
+- [Speaker & Op-Amp Options]([Component-Selection.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/))
