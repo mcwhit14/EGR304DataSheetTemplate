@@ -472,6 +472,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#block-diagram-audio-subsystem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Diagram (Audio Subsystem)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-budget-audio-subsystem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Budget (Audio Subsystem)
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -832,6 +850,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#block-diagram-audio-subsystem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Diagram (Audio Subsystem)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-budget-audio-subsystem" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Budget (Audio Subsystem)
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -866,25 +902,27 @@ for<br>
 <p><strong>Submission: month, DD, YYYY</strong>
 </p></center><p></p>
 <h2 id="introduction">Introduction</h2>
-<ul>
-<li>This needs to be updated so that a reader gets an idea of the purpose of this datasheet.</li>
-</ul>
+<p>The purpose of this datasheet is to document the design process of my subsystem within the main project's system. My subsystem focus on the audio feedback module, which will provide a audio noice whenever the system detects a change in state, such as user input through the control hub. This documentation outlines the schematic design and ensures reliable intregration within the teams overall automated sprinkler system. </p>
 <h3 id="project-summary">Project Summary</h3>
-<ul>
-<li>This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.</li>
-<li>Add context that ties into the link to your <a href="https://embedded-systems-design.github.io/EGR304TeamTemplate/">team report.</a></li>
-</ul>
+<p>The Smart Sprinkler system is designed to automate water usage based off of real time soil moisture data. The System uses a Sensor Module, Control Hub, and a Audio output module. My subsystem connects to the control hub via a digital signal to the Hub microcontroller. When the poteniometer changes state or a button is press a PWM signal is sent to my board where its filtered and amplified through a Op amp and transistors This will drive a small buzzer to provide clear and immediate audio responses for user notifications.[team report.](<a href="https://egr304-2025-f-101.github.io/team101.github.io/">https://embedded-systems-design.github.io/EGR304TeamTemplate/</a></p>
 <h3 id="my-contribution">My Contribution</h3>
-<ul>
-<li>This needs to be updated to reflect a team introduction</li>
-<li>Content should also help an unfamiliar reader navigate to areas of interest. Information like:</li>
-</ul>
+<p>I independently built the speaker subsystem for team 101. My responsiblities were to develop the full KiCad Schematic Integrating the Micro controller, an Op amp, Transistors, and a Speaker. Adding Test points and fuse protection for troubleshooting. Ensuring compatibility between my module and the Hub. Creating a Powerr budget using a custom 5V regulator souced from a 9V 3A adapter. With this work I created a low power audio feedback solution that makes the entire System more interactive and easier to troubleshoot during operation. </p>
 <p>To review the details listed of the material used to construct the subsection, you can review it in the <a href="https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/">"BOM"</a> section of the datasheet.</p>
 <p>For all the sections</p>
 <h2 id="component-selection-audio-subsystem">Component Selection (Audio Subsystem)</h2>
 <ul>
-<li><a href="[Component-Selection.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/)">Speaker &amp; Op-Amp Options</a></li>
+<li>[Speaker &amp; Op-Amp Options](<a href="https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/">Component-Selection.md</a></li>
 </ul>
+<h2 id="block-diagram-audio-subsystem">Block Diagram (Audio Subsystem)</h2>
+<ul>
+<li>[Block Diagram](<a href="https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/">Component-Selection.md</a></li>
+</ul>
+<h2 id="power-budget-audio-subsystem">Power Budget (Audio Subsystem)</h2>
+<ul>
+<li>[Power Budget](<a href="https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/">Component-Selection.md</a></li>
+</ul>
+<p>## Schematic (Audio Subsystem)
+- [Schematic](<a href="https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/">Component-Selection.md</a></p>
 
 
 
