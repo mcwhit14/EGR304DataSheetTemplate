@@ -7,9 +7,9 @@ tags:
 <center>
 <font size= "6">(Myles White) Datasheet</font><br>
 as part of<br>
-<font size= "8"> Heated Stair Pad</font><br>
+<font size= "8"> Smart Sprinkler System</font><br>
 for<br>
-<font size= "5"> Team 104 </font><br>
+<font size= "5"> Team 101 </font><br>
 
 **Submission: month, DD, YYYY**
 </center>
