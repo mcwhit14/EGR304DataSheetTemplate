@@ -13,4 +13,4 @@ This schematic is the subsystem that creates audio feedback from the Micro contr
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](SchematicSub.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](SchematicSub.pdf), and the Zip folder of the project [*here*](SchematicZip.zip).
