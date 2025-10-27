@@ -16,21 +16,28 @@ for<br>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+The purpose of this datasheet is to document the design process of my subsystem within the main project's system. My subsystem focus on the audio feedback module, which will provide a audio noice whenever the system detects a change in state, such as user input through the control hub. This documentation outlines the schematic design and ensures reliable intregration within the teams overall automated sprinkler system. 
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+The Smart Sprinkler system is designed to automate water usage based off of real time soil moisture data. The System uses a Sensor Module, Control Hub, and a Audio output module. My subsystem connects to the control hub via a digital signal to the Hub microcontroller. When the poteniometer changes state or a button is press a PWM signal is sent to my board where its filtered and amplified through a Op amp and transistors This will drive a small buzzer to provide clear and immediate audio responses for user notifications.[team report.]([https://embedded-systems-design.github.io/EGR304TeamTemplate/](https://egr304-2025-f-101.github.io/team101.github.io/)
 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+I independently built the speaker subsystem for team 101. My responsiblities were to develop the full KiCad Schematic Integrating the Micro controller, an Op amp, Transistors, and a Speaker. Adding Test points and fuse protection for troubleshooting. Ensuring compatibility between my module and the Hub. Creating a Powerr budget using a custom 5V regulator souced from a 9V 3A adapter. With this work I created a low power audio feedback solution that makes the entire System more interactive and easier to troubleshoot during operation. 
 
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
 
 For all the sections
 ## Component Selection (Audio Subsystem)
-- [Speaker & Op-Amp Options]([Component-Selection.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/))
+- [Speaker & Op-Amp Options]([Component-Selection.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/)
+
+## Block Diagram (Audio Subsystem)
+- [Block Diagram]([Component-Selection.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/)
+
+## Power Budget (Audio Subsystem)
+- [Power Budget]([Component-Selection.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/)
+
+  ## Schematic (Audio Subsystem)
+- [Schematic]([Component-Selection.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/)
