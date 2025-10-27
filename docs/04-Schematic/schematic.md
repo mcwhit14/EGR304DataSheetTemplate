@@ -8,7 +8,7 @@ This schematic is the subsystem that creates audio feedback from the Micro contr
 
 
 ![schematic](SchematicSubPic.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+**Figure ##:** 
 
 
 ## Resouces
