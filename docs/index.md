@@ -34,10 +34,10 @@ For all the sections
 - [Speaker & Op-Amp Options]([Component-Selection.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/)
 
 ## Block Diagram (Audio Subsystem)
-- [Block Diagram]([Component-Selection.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/)
+- [Block Diagram]([Block-Diagram.md]([https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/](https://mcwhit14.github.io/EGR304DataSheetTemplate/01-Block-Diagram/Block-Diagram/))
 
 ## Power Budget (Audio Subsystem)
-- [Power Budget]([Component-Selection.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/)
+- [Power Budget]([Power-Budget.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/05-Power-Budget/Power-Budget/)
 
   ## Schematic (Audio Subsystem)
-- [Schematic]([Component-Selection.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/)
+- [Schematic]([Schematic.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/04-Schematic/schematic/)
