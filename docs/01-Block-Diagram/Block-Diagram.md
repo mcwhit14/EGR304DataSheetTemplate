@@ -6,11 +6,11 @@ tags:
 ---
 
 ## Overview
-(Speaker/Alert Board) Generates audio notification when below freezing 
+(Speaker/Alert Board) Generates audio Feedback when button or potentiometer state is changed. 
+
+
+![Individual Block Diagram](./Final_block_diagram.drawio.png)
 
 
 
-
-
-![Indivial Block diagram ]<img width="1006" height="701" alt="Copy of individual_block_diagram drawio" src="https://github.com/user-attachments/assets/4157e3a2-e23f-47cd-b36a-3be3c448b91d" />
 
