@@ -1,8 +1,8 @@
 ---
 title: Welcome
 tags:
-- tag1
-- tag2
+- 
+- 
 ---
 <center>
 <font size= "6">(Myles White) Datasheet</font><br>
@@ -11,7 +11,7 @@ as part of<br>
 for<br>
 <font size= "5"> Team 101 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: 10, 12, 2003**
 </center>
 
 ## Introduction
