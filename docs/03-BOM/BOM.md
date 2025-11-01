@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-written context
+The BOM shows every part thats required to build and my speaker subsystem. It includes transistors, resistors, capacitors, voltage regulator, connectors, op amp, and the speaker. I put all the parts from my schematic into the BOM noting which items are from PRLTA and the hardware that would be ordered from a external source.
 
 
 
