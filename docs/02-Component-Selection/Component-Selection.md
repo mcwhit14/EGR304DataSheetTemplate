@@ -18,7 +18,7 @@ title: Component Selection
     | Through Hole mount                     | Fixed resonant frequency                                        |
     | Simple PWM drive |
 
-1. VECO 50CS08FH-1 Buzzer
+1. VECO 50CS08FH-1 Speaker
 
     ![](Van_50CS08FH-1_Speaker.png)
 
@@ -31,9 +31,9 @@ title: Component Selection
     | Low Power Use                                 | limited tone range |
     | Through hole mount |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 1:VECO 50CS08FH-1 Speaker
 
-**Rationale:** The CMT 1209-590T provides a easy to integrate solution for the outdoor temprature alert sound syestem. It can be used directly by th e micro controllers PWM signal with a op amp and transitstor. Wit it beinf through hole mount and solid sound with out requiring a dedicated audio driver. The alternative is too quiet  for realistic outdoor use. 
+**Rationale:** The VECO 50CS08FH-1 provides a easy to integrate solution for the outdoor temprature alert sound syestem. It can be used directly by th e micro controllers PWM signal with a op amp and transitstor. Wit it beinf through hole mount and solid sound with out requiring a dedicated audio driver. The alternative is too quiet  for realistic outdoor use. 
 
 
 
