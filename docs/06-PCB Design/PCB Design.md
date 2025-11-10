@@ -14,4 +14,4 @@ This PCB is designed for my Speaker amplifier subsystem. It includes all major c
 ## Resouces
 
 The PCB as a PDF download is available [*here*](PCB.pdf)
-The PCB as a zip file is available [*here*](PCB.pdf)
+The PCB as a zip file is available [*here*](PCB_ZIP.zip)
