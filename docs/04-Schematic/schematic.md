@@ -15,4 +15,4 @@ This schematic is the subsystem that creates audio feedback from the Micro contr
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](FinalSchematic.pdf)
+The schematic as a PDF download is available [*here*](SchematicFinal1.pdf)
