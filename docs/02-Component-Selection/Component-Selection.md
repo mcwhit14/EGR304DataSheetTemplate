@@ -33,7 +33,7 @@ title: Component Selection
 
 **Choice:** Option 1:VECO 50CS08FH-1 Speaker
 
-**Rationale:** The VECO 50CS08FH-1 provides a easy to integrate solution for the outdoor temprature alert sound syestem. It can be used directly by th e micro controllers PWM signal with a op amp and transitstor. Wit it beinf through hole mount and solid sound with out requiring a dedicated audio driver. The alternative is too quiet  for realistic outdoor use. 
+**Rationale:** The VECO 50CS08FH-1 provides a easy to integrate solution for the outdoor temprature alert sound syestem. It can be used directly by the micro controllers PWM signal with a op amp and transitstor. With it being through hole mount and solid sound with out requiring a dedicated audio driver. The alternative is too quiet for realistic outdoor use. 
 
 
 
