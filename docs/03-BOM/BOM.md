@@ -13,7 +13,7 @@ The BOM shows every part thats required to build and my speaker subsystem. It in
 
 
 ## Bill of Materials Example (as Image)
-![](image.png){style width: "2000"}
-**Figure 2:** Example Bill of Materials as a screenshot.
+![](FinalBOM.png){style width: "2000"}
+**Figure 2:**  Bill of Materials as a screenshot.
 
 
