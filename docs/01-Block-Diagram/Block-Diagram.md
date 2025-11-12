@@ -9,7 +9,7 @@ tags:
 (Speaker/Alert Board) Generates audio Feedback when button or potentiometer state is changed. 
 
 
-![Individual Block Diagram](./Final_block_diagram.drawio.png)
+![Individual Block Diagram](./FinalBlock1.drawio.png)
 
 
 
