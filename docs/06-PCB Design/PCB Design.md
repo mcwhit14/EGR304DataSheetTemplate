@@ -12,7 +12,10 @@ This PCB is designed for my Speaker amplifier subsystem. It includes all major c
 ![schematic](PCB_Rear.png){style width:"350" height:"300;"}
 **Figure ##:** 
 
-![schematic](PCB_manufactured.pdf){style width:"350" height:"300;"}
+![schematic](PCB_manufactured-1.png){style width:"350" height:"300;"}
+**Figure ##:** 
+
+![schematic](PCB_manufactured-2.png){style width:"350" height:"300;"}
 **Figure ##:** 
 
 
