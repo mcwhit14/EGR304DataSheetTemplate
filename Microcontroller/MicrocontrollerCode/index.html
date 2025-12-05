@@ -24,7 +24,7 @@
 
     
       
-        <title>MicrocontrollerCode - EGR 304 Data Sheet Template</title>
+        <title>Microcontroller Code - EGR 304 Data Sheet Template</title>
       
     
     
@@ -87,6 +87,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -118,7 +123,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MicrocontrollerCode
+              Microcontroller Code
             
           </span>
         </div>
@@ -869,15 +874,97 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Microcontroller Code
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    MicrocontrollerCode
+    Microcontroller Code
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Function
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-working-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Working Code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#include-mcc_generated_filessystemsystemh" class="md-nav__link">
+    <span class="md-ellipsis">
+      include "mcc_generated_files/system/system.h"
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#include-stdioh" class="md-nav__link">
+    <span class="md-ellipsis">
+      include "stdio.h"
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#define-beep_cycles-200-200-ms-beep" class="md-nav__link">
+    <span class="md-ellipsis">
+      define BEEP_CYCLES   200      // ~200 ms beep
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -909,6 +996,68 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Function
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-working-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final Working Code
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#include-mcc_generated_filessystemsystemh" class="md-nav__link">
+    <span class="md-ellipsis">
+      include "mcc_generated_files/system/system.h"
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#include-stdioh" class="md-nav__link">
+    <span class="md-ellipsis">
+      include "stdio.h"
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#define-beep_cycles-200-200-ms-beep" class="md-nav__link">
+    <span class="md-ellipsis">
+      define BEEP_CYCLES   200      // ~200 ms beep
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -930,7 +1079,77 @@
   
 
 
-  <h1>MicrocontrollerCode</h1>
+<h2 id="overview">Overview</h2>
+<p>This page documents the firmware used for the Speaker subsystem in the smart irrigation system project.
+The microcontroller recieves a digital trigger signal from the Control subsystem and generates an audible beep through a Digital output that drives the speaker amplifier circuit </p>
+<h2 id="system-function">System Function</h2>
+<ul>
+<li>Input: Digital Trigger from partner board(RB0)</li>
+<li>Output: Digital tone on RC0 to speaker circuit</li>
+<li>Indicator: On board LED for Debugging</li>
+<li>Purpose: Provide audible feedback when system state changes. </li>
+</ul>
+<h2 id="final-working-code">Final Working Code</h2>
+<h1 id="include-mcc_generated_filessystemsystemh">include "mcc_generated_files/system/system.h"</h1>
+<h1 id="include-stdioh">include "stdio.h"</h1>
+<p>// 1 kHz beep</p>
+<h1 id="define-beep_cycles-200-200-ms-beep">define BEEP_CYCLES   200      // ~200 ms beep</h1>
+<p>static void beep_once(void)
+{
+    // Turn LED on while beeping
+    IO_RF3_SetHigh();</p>
+<pre><code>for (uint16_t i = 0; i &lt; BEEP_CYCLES; i++)
+{
+    IO_RC0_SetHigh();      // drive speaker circuit high
+    __delay_us(500);       // 0.5 ms
+
+    IO_RC0_SetLow();       // drive speaker circuit low
+    __delay_us(500);       // 0.5 ms
+}
+
+// Turn LED off after beep
+IO_RF3_SetLow();
+</code></pre>
+<p>}</p>
+<p>int main(void)
+{
+    SYSTEM_Initialize();</p>
+<pre><code>// Make sure speaker output and LED start off
+IO_RC0_SetLow();
+IO_RF3_SetLow();
+
+// RB2 = your manual test button (active-low)
+// RB0 = digital signal from partner board (Speaker_Out)
+uint8_t last_btn_state     = IO_RB2_GetValue();  
+uint8_t last_partner_state = IO_RB0_GetValue();
+
+while (1)
+{
+
+    uint8_t btn_state     = IO_RB2_GetValue();   // manual test button
+    uint8_t partner_state = IO_RB0_GetValue();   // from Raj
+
+    //Local button: beep on press (1 -&gt; 0, active-low)
+    if ((last_btn_state == 1) &amp;&amp; (btn_state == 0))
+    {
+        // button transitioned from released to pressed
+        beep_once();
+    }
+
+    // Partner signal: beep on press event (1 -&gt; 0) 
+    if ((last_partner_state == 1) &amp;&amp; (partner_state == 0))
+    {
+        // Speaker_Out line on Raj's side went from high to low
+        // (BTN press or pot event, depending on his code)
+        beep_once();
+    }
+
+
+    last_btn_state     = btn_state;
+    last_partner_state = partner_state;
+}
+</code></pre>
+<p>}</p>
 
 
 
@@ -938,7 +1157,8 @@
 
 
 
-
+  
+  
 
 
 
