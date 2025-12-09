@@ -81,10 +81,10 @@ title: Component Selection
 
 
 
-| Component | Part Number / Module | Function in System | Key Specs | Approx. Price |
+| Component | Part Number / Module | Function in System | Key Specs |  |
 |----------|----------------------|--------------------|-----------|----------------|
-| **Microcontroller Board** | Microchip **PIC18F57Q43 Curiosity Nano** | Reads partner digital signal, reads manual test button, generates PWM/audio output | 64 MHz internal oscillator, multiple GPIO, PWM output on RC0 | ~$18–$25 |
-| **Voltage Regulator** | **L7805CV** (Linear 5 V Regulator) | Converts 9 V supply to stable 5 V rail for MCU & speaker circuit | Input: 7–35 V, Output: 5 V @ up to 1–1.5 A, thermal protection | ~$1–$3 |
-| **Speaker Driver Transistors** | NPN/PNP **Push Pull Pair** | Amplifies PWM output to drive the speaker with sufficient current | Handles audio frequency switching & moderate current | ~$0.50–$2 |
-| **Speaker** | 8 Ω small audio transducer | Converts PWM signal into audible beep | Typical 0.5W–1W, 8 Ω impedance | ~$1–$5 |
-| **Partner Subsystem Output** | GPIO line from Raj’s MCU | Provides digital event trigger to the speaker subsystem | Logic level 5 V digital output | — |
+| **Microcontroller Board** | Microchip **PIC18F57Q43 Curiosity Nano** | Reads partner digital signal, reads manual test button, generates PWM/audio output | 64 MHz internal oscillator, multiple GPIO, PWM output on RC0 |  |
+| **Voltage Regulator** | **LM7805** (Linear 5 V Regulator) | Converts 9 V supply to stable 5 V rail for MCU & speaker circuit | Input: 7–35 V, Output: 5 V @ up to 1–1.5 A, thermal protection |  |
+| **Speaker Driver Transistors** | NPN/PNP **Push Pull Pair** | Amplifies PWM output to drive the speaker with sufficient current | Handles audio frequency switching & moderate current |  |
+| **Speaker** | 8 Ω small audio transducer | Converts PWM signal into audible beep | Typical 0.5W–1W, 8 Ω impedance | |
+| **Partner Subsystem Output** | GPIO line from Raj’s MCU | Provides digital event trigger to the speaker subsystem | Logic level 5 V digital output |  |
