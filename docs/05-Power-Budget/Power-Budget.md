@@ -7,11 +7,14 @@ title: Power Budget
 
 > Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
-![budget1](PowerBudA.png){style width:"350" height:"300;"}
+![budget1]<img width="810" height="180" alt="Screen Shot 2025-12-08 at 11 55 11 PM" src="https://github.com/user-attachments/assets/011609fc-aa0b-4524-8325-067fedca125e" />
+{style width:"350" height:"300;"}
 
-![budget2](PowerBudB.png){style width:"350" height:"300;"}
+![budget2]{<img width="810" height="180" alt="Screen Shot 2025-12-08 at 11 54 05 PM" src="https://github.com/user-attachments/assets/60388db4-bbc2-4e11-b0b3-5e4c3e8f84d1" />
+style width:"350" height:"300;"}
 
-![budget3](PowerBudC.png){style width:"350" height:"300;"}
+![budget3]<img width="810" height="150" alt="Screen Shot 2025-12-08 at 11 52 20 PM" src="https://github.com/user-attachments/assets/9a275b3e-b66f-4e65-82d3-2a20e87cee65" />
+{style width:"350" height:"300;"}
 
 ![budget3](PowerBudNotes.png){style width:"350" height:"300;"}
 
