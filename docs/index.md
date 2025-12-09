@@ -20,7 +20,7 @@ The purpose of this datasheet is to document the design process of my subsystem 
 
 ### Project Summary
 
-The Smart Sprinkler system is designed to automate water usage based off of real time soil moisture data. The System uses a Sensor Module, Control Hub, and a Audio output module. My subsystem connects to the control hub via a digital signal to the Hub microcontroller. When the poteniometer changes state or a button is press a PWM signal is sent to my board where its filtered and amplified through a Op amp and transistors This will drive a small buzzer to provide clear and immediate audio responses for user notifications.[team report.]([https://embedded-systems-design.github.io/EGR304TeamTemplate/](https://egr304-2025-f-101.github.io/team101.github.io/)
+The Smart Sprinkler system is designed to automate water usage based off of real time soil moisture data. The System uses a Sensor Module, Control Hub, and a Audio output module. My subsystem connects to the control hub via a digital signal to the Hub microcontroller. When the poteniometer changes state or a button is press a PWM signal is sent to my board where its filtered and amplified through a Op amp and transistors This will drive a small buzzer to provide clear and immediate audio responses for user notifications.[team report.](https://egr304-2025-f-101.github.io/team101.github.io/)
 
 
 ### My Contribution
