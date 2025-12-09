@@ -25,19 +25,19 @@ The Smart Sprinkler system is designed to automate water usage based off of real
 
 ### My Contribution
 
-I independently built the speaker subsystem for team 101. My responsiblities were to develop the full KiCad Schematic Integrating the Micro controller, an Op amp, Transistors, and a Speaker. Adding Test points and fuse protection for troubleshooting. Ensuring compatibility between my module and the Hub. Creating a Powerr budget using a custom 5V regulator souced from a 9V 3A adapter. With this work I created a low power audio feedback solution that makes the entire System more interactive and easier to troubleshoot during operation. 
+I independently built the speaker subsystem for team 101. My responsiblities were to develop the full KiCad Schematic integrating the micro controller, an voltage regulator, transistors, and a speaker. Adding Test points and fuse protection for troubleshooting. Ensuring compatibility between my module and the Hub. Creating a Powerr budget using a custom 5V regulator souced from a 9V 3A adapter. With this work I created a low power audio feedback solution that makes the entire System more interactive and easier to troubleshoot during operation. 
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
+To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://mcwhit14.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
 
 For all the sections
 ## Component Selection (Audio Subsystem)
-- [Speaker & Op-Amp Options]([Component-Selection.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/)
+- [Speaker & Voltage Regulator Options](https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/)
 
 ## Block Diagram (Audio Subsystem)
-- [Block Diagram]([Block-Diagram.md]([https://mcwhit14.github.io/EGR304DataSheetTemplate/02-Component-Selection/Component-Selection/](https://mcwhit14.github.io/EGR304DataSheetTemplate/01-Block-Diagram/Block-Diagram/))
+- [Block Diagram](https://mcwhit14.github.io/EGR304DataSheetTemplate/01-Block-Diagram/Block-Diagram/)
 
 ## Power Budget (Audio Subsystem)
-- [Power Budget]([Power-Budget.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/05-Power-Budget/Power-Budget/)
+- [Power Budget](https://mcwhit14.github.io/EGR304DataSheetTemplate/05-Power-Budget/Power-Budget/)
 
   ## Schematic (Audio Subsystem)
-- [Schematic]([Schematic.md](https://mcwhit14.github.io/EGR304DataSheetTemplate/04-Schematic/schematic/)
+- [Schematic](https://mcwhit14.github.io/EGR304DataSheetTemplate/04-Schematic/schematic/)
