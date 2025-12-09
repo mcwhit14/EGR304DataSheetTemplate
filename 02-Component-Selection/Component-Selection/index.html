@@ -934,7 +934,7 @@
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../Van_50CS08FH-1_Speaker.png" data-desc-position="bottom"><img alt="" src="../Van_50CS08FH-1_Speaker.png"></a></p>
 <ul>
 <li>$0.59/each</li>
-<li><a href="[http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940](https://www.endrich.com/Datenbl%C3%A4tter/Generalimport/672158.pdf?utm_source)">Link to product</a></li>
+<li><a href="https://www.jameco.com/z/50CS08FH-1-Vansonic-Round-Ferrite-Speaker-1-94-Diameter-8-ohm-0-4-Watt-200-Hz-to-5-kHz_2328575.html?srsltid=AfmBOorK3V0Fo3Cn0z_fcK4U6CxbM_HthdVQznWuKYyMYo8L2BXqjeSr">link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -962,14 +962,14 @@
 </ol>
 <p><strong>Choice:</strong> Option 1:VECO 50CS08FH-1 Speaker</p>
 <p><strong>Rationale:</strong> The VECO 50CS08FH-1 provides a easy to integrate solution for the outdoor temprature alert sound syestem. It can be used directly by the micro controllers PWM signal with a op amp and transitstor. With it being through hole mount and solid sound with out requiring a dedicated audio driver. The alternative is too quiet for realistic outdoor use. </p>
-<p><strong>Op Amp Comparison</strong></p>
+<p><strong>Voltage Regulator Comparison</strong></p>
 <ol>
 <li>
-<p>Microchip MCP6004</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../OpAmp_MCP6004Image.png" data-desc-position="bottom"><img alt="" src="../OpAmp_MCP6004Image.png"></a></p>
+<p>Ti LM7805 5V Linear Regulator 
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/7eeaa63b-954b-46e8-b81a-53ef667362ad" data-desc-position="bottom"><img alt="LM7805VoltageRegulator" src="https://github.com/user-attachments/assets/7eeaa63b-954b-46e8-b81a-53ef667362ad"></a></p>
 <ul>
-<li>$0.67/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
+<li>$0.88/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/LM7805CT-NOPB/3901929?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=17338792030&amp;gbraid=0AAAAADrbLlgD06YuCRRbNvrHtvYd-5puf&amp;gclid=Cj0KCQiAi9rJBhCYARIsALyPDtsrAECxK8bvDTH6ygL4ncxuzGbe1dcxQVmGJbaXaqGTxQ_9gyD9MuAaAktPEALw_wcB">link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -980,53 +980,36 @@
 </thead>
 <tbody>
 <tr>
-<td>has a Dip 14 package</td>
-<td>Limited current drive</td>
+<td>Simple Design</td>
+<td>Waste power as heat</td>
 </tr>
 <tr>
-<td>Easy for 5V systems</td>
-<td>low Bandwith (1 MHz)</td>
+<td>Provides up to 1A with proper heat sinking</td>
+<td>Requires basic thermal consideration if current ever gets too high</td>
 </tr>
 <tr>
-<td>Has Rail to Rail Input and Output</td>
+<td>Widley available local stock</td>
 <td></td>
 </tr>
 </tbody>
 </table>
 </li>
 <li>
-<p>Ti LM358</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../OpAmp_LM358.png" data-desc-position="bottom"><img alt="" src="../OpAmp_LM358.png"></a></p>
-<ul>
-<li>$0.27/each</li>
-<li><a href="[[http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940](https://www.endrich.com/Datenbl%C3%A4tter/Generalimport/672158.pdf?utm_source)](https://www.ti.com/product/LM358#tech-docs)">Link to product</a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Really cheap and Available</td>
-<td>Only handles 3.5V</td>
-</tr>
-<tr>
-<td>good for low frequency analog systems</td>
-<td>Higher offset voltage</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<p>Ti LM2596 DC-DC Buck Converter Module 5V</p>
 </li>
 </ol>
-<p><strong>Choice:</strong> Microchip MCP6004
-<strong>Rationale:</strong> The MCP6004 is made for 5V systems such as our Curisosity Nano. Its consumes low power and comes with the Dip-14 package. The alternitive was better in cost but lacks accepting 5V. The MCP is not complex and will be easy to integrate into our system. </p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/b63a4449-e0fd-4213-a72d-36676e787646" data-desc-position="bottom"><img alt="2596VoltageRegulator" src="https://github.com/user-attachments/assets/b63a4449-e0fd-4213-a72d-36676e787646"></a></p>
+<pre><code>* $3.08/each
+* [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM2596T-ADJ-NOPB/363709)
+
+| Pros                                                              | Cons                |
+| ----------------------------------------------------------------- | ------------------- |
+| Very Efficient                                         | More complex behavior    |
+| much less heat disapation for the same amount of current                            | Physically larger|
+|  |
+</code></pre>
+<p><strong>Choice:</strong> Ti LM7805
+<strong>Rationale:</strong> The LM7805 is very simple to implement on a PCB, a TO-220 through hole footprint makes it easy for soldiering and debugging. The lower electrical noise of a linear regulator is helpful for a cleaner audio signal into the speaker amplifier stage. For these reasons the LM7805 is a great choice for a 5V source to power all the loads on the board. </p>
 
 
 
