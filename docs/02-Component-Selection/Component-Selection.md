@@ -23,7 +23,9 @@ title: Component Selection
     ![](Van_50CS08FH-1_Speaker.png)
 
     * $0.59/each
-    * [Link to product]([http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940](https://www.endrich.com/Datenbl%C3%A4tter/Generalimport/672158.pdf?utm_source))
+    * [link to product](https://www.jameco.com/z/50CS08FH-1-Vansonic-Round-Ferrite-Speaker-1-94-Diameter-8-ohm-0-4-Watt-200-Hz-to-5-kHz_2328575.html?srsltid=AfmBOorK3V0Fo3Cn0z_fcK4U6CxbM_HthdVQznWuKYyMYo8L2BXqjeSr)
+  
+      
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
@@ -41,33 +43,35 @@ title: Component Selection
 
 
 
-**Op Amp Comparison**
+**Voltage Regulator Comparison**
 
-1. Microchip MCP6004
+1. Ti LM7805 5V Linear Regulator 
+![LM7805VoltageRegulator](https://github.com/user-attachments/assets/7eeaa63b-954b-46e8-b81a-53ef667362ad)
 
-    ![](OpAmp_MCP6004Image.png)
 
-    * $0.67/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    * $0.88/each
+    * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM7805CT-NOPB/3901929?gclsrc=aw.ds&gad_source=1&gad_campaignid=17338792030&gbraid=0AAAAADrbLlgD06YuCRRbNvrHtvYd-5puf&gclid=Cj0KCQiAi9rJBhCYARIsALyPDtsrAECxK8bvDTH6ygL4ncxuzGbe1dcxQVmGJbaXaqGTxQ_9gyD9MuAaAktPEALw_wcB)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | has a Dip 14 package                              |Limited current drive|
-    | Easy for 5V systems                   | low Bandwith (1 MHz)                                        |
-    | Has Rail to Rail Input and Output |
+    | Simple Design                             |Waste power as heat|
+    | Provides up to 1A with proper heat sinking                  | Requires basic thermal consideration if current ever gets too high                                      |
+    | Widley available local stock  |
 
-1. Ti LM358
+1. Ti LM2596 DC-DC Buck Converter Module 5V
 
-    ![](OpAmp_LM358.png)
+   ![2596VoltageRegulator](https://github.com/user-attachments/assets/b63a4449-e0fd-4213-a72d-36676e787646)
 
-    * $0.27/each
-    * [Link to product]([[http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940](https://www.endrich.com/Datenbl%C3%A4tter/Generalimport/672158.pdf?utm_source)](https://www.ti.com/product/LM358#tech-docs))
+
+    * $3.08/each
+    * [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM2596T-ADJ-NOPB/363709)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Really cheap and Available                                           | Only handles 3.5V     |
-    | good for low frequency analog systems                                | Higher offset voltage|
+    | Very Efficient                                         | More complex behavior    |
+    | much less heat disapation for the same amount of current                            | Physically larger|
     |  |
 
-**Choice:** Microchip MCP6004
-**Rationale:** The MCP6004 is made for 5V systems such as our Curisosity Nano. Its consumes low power and comes with the Dip-14 package. The alternitive was better in cost but lacks accepting 5V. The MCP is not complex and will be easy to integrate into our system. 
+**Choice:** Ti LM7805
+**Rationale:** The LM7805 is very simple to implement on a PCB, a TO-220 through hole footprint makes it easy for soldiering and debugging. The lower electrical noise of a linear regulator is helpful for a cleaner audio signal into the speaker amplifier stage. For these reasons the LM7805 is a great choice for a 5V source to power all the loads on the board. 
