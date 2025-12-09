@@ -26,7 +26,7 @@
 
     
       
-        <title>HardwareV2.0 - EGR 304 Data Sheet Template</title>
+        <title>Hardware V2.0 - EGR 304 Data Sheet Template</title>
       
     
     
@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -120,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              HardwareV2.0
+              Hardware V2.0
             
           </span>
         </div>
@@ -854,15 +859,52 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Hardware V2.0
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    HardwareV2.0
+    Hardware V2.0
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -940,6 +982,23 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -961,7 +1020,22 @@
   
 
 
-  <h1>HardwareV2.0</h1>
+  <h1>Hardware V2.0</h1>
+
+<h2 id="overview">Overview</h2>
+<p>If I were to create a version 2.0 of the speaker subsystem, several improvements would increase reliability and ease of debugging with added performancee. </p>
+<p>I would first improve the the power regulation stage because it was causing the most issues during testing due to heat build up, soldering sensitivity and difficukty verifying correct voltages on the PCB. In V2.0 I would switch to a 5V switching regulator because they run cooler, can handle higher heat from soldering and handing input voltage variation better. 
+I would then add proper test points and debugging pads. Due to testing and troubleshooting it required external jumpers and quick modifications. Including more labeled test points on the schematic for: </p>
+<ul>
+<li>5V Output</li>
+<li>Groung</li>
+<li>Patner subsystem input (RB0) </li>
+<li>Manual test button input (RB2)</li>
+</ul>
+<p>I would then fix the routing around the manua test button due to the input behaing unexpectly and casued a short like behavior on the power supply. So a V2.0 would include a larger pull down resistor closer to RB2, wider spacing between the button pads and nearby traces, and a dedicates ground test point close to the switch to prevent current spikes that was seen during testing. </p>
+<p>Version 2.0 would also have wider power traces for better manufacturability because the inital PCB failed DFM checks because the annular rings were below the manufacturing limits. </p>
+<p>The connector alignement for the curiosity nano could be improved because the original header layout initially caused a unrealiable detection of the board. In V.2.0 I would use a single keyed connector or a alignment silkscreen </p>
+<p>With this improvements to manufacurability, debugging, and power delivery and stability. These changes directly address the issues encountered in testing and make the subsystem more robust and professional for the full system.</p>
 
 
 
@@ -969,7 +1043,8 @@
 
 
 
-
+  
+  
 
 
 
