@@ -79,8 +79,7 @@ title: Component Selection
 
 ## Major Components Summary
 
-Below is a summary of the primary active components used in the system.  
-Passive components (resistors, capacitors), connectors, and pushbuttons are excluded.
+
 
 | Component | Part Number / Module | Function in System | Key Specs | Approx. Price |
 |----------|----------------------|--------------------|-----------|----------------|
